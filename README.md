@@ -66,3 +66,16 @@ python app-CMD.py
 - You can expand the chatbot's functionality by adding more `patterns` and responses in the patterns list. 📜
 - Modify the `respond_to_input()` function to integrate more advanced NLP models or data processing techniques. 🧠
 - The `Gradio` interface can also be customized by changing the appearance, layout, and adding additional components like images or files. 🎨
+
+
+## 📝 License
+[[License](LICENSE)] ⚖️
+
+
+
+## ❤️ Support This Project
+If you find this project useful, consider supporting its development:
+
+💰 Via PayPal: [[PayPal Link](https://www.paypal.com/ncp/payment/KC9EETJDVZQHG)]
+
+Your support helps keep this project alive! 🚀🔥
