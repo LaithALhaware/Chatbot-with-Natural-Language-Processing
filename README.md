@@ -32,7 +32,7 @@ To start the chatbot, run the Python script:
 ```bash
 python app-GUI.py
 ```
-Once the script is executed, Gradio will open a local web server, and you can access the chatbot by visiting the URL shown in the terminal, usually `http://127.0.0.1:7860/`. 🔗
+Once the script is executed, Gradio will open a local web server, and you can access the chatbot by visiting the URL shown in the terminal, usually `http://127.0.0.1:[PORT SHOWING ON CMD]/`. 🔗
 
 ### 🚀 Running the Chatbot on CMD :
 To start the chatbot, run the Python script:
