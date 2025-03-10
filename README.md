@@ -16,9 +16,13 @@ Before running the project, ensure you have Python installed and the necessary l
 - `gradio` for the web-based interface 🌍
 
 ### 🏗️ Project Setup :
-Clone the repository or download the project files to your local machine. 📂
-Install the dependencies using pip:
+- Clone the repository or download the project files to your local machine. 📂
+```bash
+git clone https://github.com/LaithALhaware/Chatbot-with-Natural-Language-Processing.git
+cd 'Chatbot-with-Natural-Language-Processing'
+```
 
+- Install the dependencies using pip:
 ```bash
 pip install nltk gradio
 ```
