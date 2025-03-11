@@ -2,20 +2,31 @@
 
 This project is a simple chatbot built using Natural Language Processing (NLP) with the `nltk` library and a web-based GUI using the `Gradio` library. The chatbot can respond to basic user queries and provide simple conversational responses. 💬
 
-## ✨ Features :
+## ✨ Features 
 
 - **Text-based chatbot** using regular expression matching for user input. 🔍
 - **Web-based interface** using Gradio for easy interaction with the chatbot. 🌐
 - **Predefined responses** for common user inputs such as greetings, inquiries, and exit phrases. 👋
 
-## 🛠️ Prerequisites :
+## 🛠️ Prerequisites 
 
 Before running the project, ensure you have Python installed and the necessary libraries:
 
 - `nltk` for Natural Language Processing 🧠
 - `gradio` for the web-based interface 🌍
 
-### 🏗️ Project Setup :
+### 🏗️ Project Setup 
+
+- Open CMD 🖥️
+
+
+| **Operating System** | **Steps**                                                                                                                   |
+|----------------------|-----------------------------------------------------------------------------------------------------------------------------|
+| **Windows** 💻        | 1. Press `Windows + R` to open the "Run" dialog box. <br> 2. Type `cmd` and hit `Enter`. <br> 3. The Command Prompt (CMD) will open. <br> Alternatively, you can search for "Command Prompt" in the Start menu and click to open it. 🔍 <br> 4. To navigate to the Desktop, type `cd %USERPROFILE%\Desktop` and hit `Enter`. 📂        |
+| **Linux** 🐧          | 1. Press `Ctrl + Alt + T` to open the terminal. <br> 2. Alternatively, search for "Terminal" in your applications menu. 💨 <br> 3. To navigate to the Desktop, type `cd ~/Desktop` and hit `Enter`. 📂        |
+
+
+
 - Clone the repository or download the project files to your local machine. 📂
 ```bash
 git clone https://github.com/LaithALhaware/Chatbot-with-Natural-Language-Processing.git
@@ -31,26 +42,26 @@ Download necessary NLTK resources:
 
 The `nltk.download('punkt')` in the code will download the necessary resources when you run the project. 🌱
 
-### 🚀 Running the Chatbot on Web Page : 
+### 🚀 Running the Chatbot on Web Page 
 To start the chatbot, run the Python script:
 ```bash
 python app-GUI.py
 ```
 Once the script is executed, Gradio will open a local web server, and you can access the chatbot by visiting the URL shown in the terminal, usually `http://127.0.0.1:[PORT SHOWING ON CMD]/`. 🔗
 
-### 🚀 Running the Chatbot on CMD :
+### 🚀 Running the Chatbot on CMD 
 To start the chatbot, run the Python script:
 ```bash
 python app-CMD.py
 ```
 
-### 🛠️ How It Works :
+### 🛠️ How It Works 
 - The user inputs a message in the text box. 📝
 - The chatbot processes the input and returns an appropriate response based on predefined patterns. 🔄
 - Common responses include greetings, checking on the chatbot’s status, and handling unknown inputs. 🤔
 - The user can exit the chat by typing `bye` or `exit`. ✋
 
-### 🗣️ Example Interaction : 
+### 🗣️ Example Interaction 
 `User`: Hi 👋
 
 `Chatbot`: Hello! 🤖
@@ -66,7 +77,7 @@ python app-CMD.py
 `Chatbot`: Goodbye! ✨
 ![Image](Images/Example.JPG)
 
-### 🎨 Customization :
+### 🎨 Customization 
 - You can expand the chatbot's functionality by adding more `patterns` and responses in the patterns list. 📜
 - Modify the `respond_to_input()` function to integrate more advanced NLP models or data processing techniques. 🧠
 - The `Gradio` interface can also be customized by changing the appearance, layout, and adding additional components like images or files. 🎨
