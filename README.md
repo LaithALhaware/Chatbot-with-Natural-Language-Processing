@@ -84,10 +84,10 @@ python app-CMD.py
 
 
 ## 📝 License
-[[License](LICENSE)] ⚖️
+This project is licensed under the **License**. See the [LICENSE.txt](LICENSE.txt) ⚖️ file for details.
 
 
-
+---
 ## ❤️ Support This Project
 If you find this project useful, consider supporting its development:
 
